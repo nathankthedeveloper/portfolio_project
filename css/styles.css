@@ -68,3 +68,12 @@ footer{
     -ms-border-radius: 65%;
     -o-border-radius: 65%;
 }
+
+#feedbackForm{
+    margin: 20px 40px;
+}
+
+#mapContent {
+    margin-top: 40px;
+    text-align: center;
+}
