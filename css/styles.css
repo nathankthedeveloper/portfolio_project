@@ -36,7 +36,7 @@ footer{
 }
 
 #reserveModal{
-    background-image: url("/img/background1.jpg");
+    background-image: url("/img/background2.jpg");
 }
 
 
@@ -76,4 +76,27 @@ footer{
 #mapContent {
     margin-top: 40px;
     text-align: center;
+}
+
+#aboutUsContent img{
+    box-shadow: 5px 18px 15px;
+}
+
+#menuPage {
+    background-image: url('/img/paperBackground.jpg');
+    box-sizing: border-box;
+    box-shadow: 8px 12px 14px;
+}
+#menuPage p {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+#menuPage h5 {
+    margin-top: 3em;
+}
+
+#menuPage{
+    padding-bottom: 5em;
+    margin-bottom: 2em;
 }
