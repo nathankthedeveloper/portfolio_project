@@ -41,6 +41,7 @@ header {
 }
 
 a, a:hover {
+    color:inherit;
     text-decoration: none;
 }
 
@@ -72,17 +73,11 @@ footer{
 
 #orderOnlinebtn, #reserveButton {
     padding: 20px;
-    border-radius: 65%;
-    box-shadow: 10px 15px 18px;
     position: relative;
-    background-image: linear-gradient(to right,$color-leafy,$color-autumn,$color-hero);
+    background-color: sliver;
     font-size: 1.5rem;
     font-family: 'EB Garamond', sans-serif;
     color: $color-ash ;
-    -webkit-border-radius: 65%;
-    -moz-border-radius: 65%;
-    -ms-border-radius: 65%;
-    -o-border-radius: 65%;
 }
 
 #feedbackForm{
@@ -95,26 +90,36 @@ footer{
 }
 
 #aboutUsContent img{
-    box-shadow: 5px 18px 15px;
+    box-shadow: 5px 18px 15px ;
 }
 
+#menuPage .nav-link{
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight:bold;
+    color: $color-dew;
+    font-family: Verdana, sans-serif;
+}
 #menuPage {
-    background-image: url('/img/texture1.jpg');
+    background-color: purple;
+    // background-image: url('/img/menuBackground.jpg');
     width:100%;
     box-sizing: border-box;
-    box-shadow: 8px 12px 14px;
-    color: $color-bright;
+    color: $color-autumn;
 }
 #menuPage p {
+    
     font-size: 1.3rem;
     margin-bottom: 0;
 }
 
-#menuPage h5 {
+
+
+#menuPage h5, #menuPage h3 {
     margin-top: 3em;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
-#menuPage{
-    padding-bottom: 5em;
-    margin-bottom: 2em;
+#myTab {
+    text-decoration: none;
 }

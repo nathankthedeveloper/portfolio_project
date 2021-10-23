@@ -1,26 +1,41 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
+
+body{
+  background-color: cadetblue;
+}
 
 header {
   background-color: silver;
   color: black; }
 
-header h2 {
+header h2, #aboutUsPage h2, h3 {
   font-family: 'Festive', cursive;
-  color: green;
+  color:green;
   font-size: 3rem; }
+
+  #aboutUsPage h2 {
+    font-family: 'Festive', cursive;
+    color:white;
+    font-size: 3rem; }
+
+
 
 header h1 {
   font-family: 'Akronim', cursive;
   font-size: 5.5rem; }
 
-.navbar {
+.navbar{
   background-color: #808080;
   font-family: 'EB Garamond', serif;
   font-size: 1.7rem; }
 
+ 
 a, a:hover {
-  text-decoration: none; }
+  color: inherit;
+  text-decoration: none;
+  text-transform: green; }
 
 footer {
   padding-bottom: 20px;
@@ -36,49 +51,57 @@ footer {
   margin-top: 400px; }
 
 #reserveButton {
-  margin-right: 80px; }
+  margin-right: 80px;
+ }
 
 #orderOnlinebtn {
   margin-left: 80px; }
 
-#orderOnlinebtn, #reserveButton {
-  padding: 20px;
-  border-radius: 65%;
-  box-shadow: 10px 15px 18px;
+#orderOnlinebtn , #reserveButton {
   position: relative;
-  background-image: linear-gradient(to right, green, yellow, pink);
+  background-color: purple;
   font-size: 1.5rem;
   font-family: 'EB Garamond', sans-serif;
-  color: gray;
-  -webkit-border-radius: 65%;
-  -moz-border-radius: 65%;
-  -ms-border-radius: 65%;
-  -o-border-radius: 65%; }
+  color: yellow; }
 
 #feedbackForm {
   margin: 20px 40px; }
 
 #mapContent {
   margin-top: 40px;
-  text-align: center; }
+  text-align: center;
+ }
 
-#aboutUsContent img {
+#menuPage h3 {
+  color:yellow;
+  font-size: 2rem;
+}
+
+#aboutUsContent img, #familyImg {
   box-shadow: 5px 18px 15px; }
 
+
+#menuPage .nav-link {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+}
+
 #menuPage {
-  background-image: url("/img/texture1.jpg");
+  background-color: purple;
   width: 100%;
   box-sizing: border-box;
-  box-shadow: 8px 12px 14px;
-  color: white; }
+  color: yellow; }
 
 #menuPage p {
   font-size: 1.3rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+font-style:italic; }
 
-#menuPage h5 {
-  margin-top: 3em; }
+#menuPage h5, #menuPage h3 {
+  margin-top: 3em;
+  font-family: 'Arial Narrow Bold', sans-serif; }
 
-#menuPage {
-  padding-bottom: 5em;
-  margin-bottom: 2em; }
+#myTab {
+  text-decoration: none; }
