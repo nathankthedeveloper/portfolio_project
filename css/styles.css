@@ -24,9 +24,19 @@ a, a:hover {
 
 footer {
   padding-bottom: 20px;
-  background-color: honeydew;
+  background-color: silver;
   font-size: 1rem; }
 
+footer h3{
+  font-family:  'Festive', cursive;
+  font-size: 3em;
+  color: green;
+}
+
+footer p{
+  font-size: 1.3em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
 #reserveModal {
   background-image: url("/img/background2.jpg"); }
 
